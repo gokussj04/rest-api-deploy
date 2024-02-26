@@ -1,0 +1,40 @@
+{
+    "name": "rest-api",
+    "version": "1.0.0",
+    "description": "Curso de node gratis",
+    "main": "index.js",
+    "scripts": {
+      "start": "node app.js",
+      "dev:1": "nodemon ../clase-2/01_http.js",
+      "dev:2": "nodemon ../clase-2/02_routing.js",
+      "dev:3": "node --watch ../clase-2/03_express.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "curso",
+      "node",
+      "nodejs",
+      "midudev"
+    ],
+    "author": "David G",
+    "license": "ISC",
+    "dependencies": {
+      "bootstrap": "^5.3.2",
+      "colors": "^1.4.0",
+      "cors": "2.8.5",
+      "dayjs": "^1.11.10",
+      "express": "4.18.2",
+      "lodash": "^4.17.21",
+      "picocolors": "1.0.0",
+      "zod": "3.22.4"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.3",
+      "semistandard": "^17.0.0",
+      "standard": "^17.1.0"
+    },
+    "eslintConfig": {
+      "extends": "semistandard"
+    }
+  }
+  
